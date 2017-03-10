@@ -1,0 +1,98 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    background: -webkit-linear-gradient(bottom left, #fc80dd 0%, #853ee2 10%);
+    background: -o-linear-gradient(bottom left, #fc80dd 0%, #853ee2 10%);
+    background: linear-gradient(to top right, #fc80dd 0%, #853ee2 10%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-left: 20px;
+    font-style: italic;
+}
+
+element.style {
+    width: 100%;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/356112/splitshire.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    align-content: space-around;
+    height: 150px;
+}
+
+section ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+section ul li {
+    text-align: center;
+}
+
+nav ul li {
+    margin-bottom: 0.8em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: white;
+}
+
+@media (min-width: 40em) {
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+    nav {
+        flex: 1 2 0%;
+    }
+    nav ul {
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-around;
+        margin-top: 2em;
+    }
+    section ul {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+@media (min-width: 900px) {
+    header {
+        display: flex;
+        width: 100%;
+    }
+    nav ul {
+        width: 500px;
+        padding: 0;
+        margin-left: auto;
+    }
+}
