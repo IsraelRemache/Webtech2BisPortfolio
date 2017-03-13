@@ -25,14 +25,14 @@ class CardApp {
 	// Hier gaan we de Notes die we invullen toevoegen
 	addNote(e){
 
-		var message = this.noteInput.value;
+		let message = this.noteInput.value;
 
-		var newNote = document.createElement("div");
+		let newNote = document.createElement("div");
 		newNote.setAttribute("class","card");
 		newNote.innerHTML = "<p>" + message + "</p>";
 		
 
-		var noteLink = document.createElement("a");
+		let noteLink = document.createElement("a");
 		noteLink.setAttribute("class","card-remove");
 		noteLink.innerHTML = "Remove";
 		noteLink.setAttribute("href","#");
@@ -52,7 +52,7 @@ class CardApp {
 
 	removeNote(e){
 
-        var noteToRemove = e.target.parentElement;
+        let noteToRemove = e.target.parentElement;
         // notesContainer is een Div met al onze childs in
         this.notesContainer.removeChild(noteToRemove);
 
@@ -61,6 +61,8 @@ class CardApp {
 	
 
 	}
+	
+	// Opslaan van notes moet nog gebeuren
 
 	
 
