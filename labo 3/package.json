@@ -1,0 +1,25 @@
+{
+  "name": "labo3se6",
+  "version": "1.0.0",
+  "description": "labo 3 for portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IsraelRemache/Webtech2BisPortfolio.git"
+  },
+  "keywords": [
+    "izzy"
+  ],
+  "author": "Israel Remache",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IsraelRemache/Webtech2BisPortfolio/issues"
+  },
+  "homepage": "https://github.com/IsraelRemache/Webtech2BisPortfolio#readme",
+  "devDependencies": {
+    "babel-cli": "^6.23.0"
+  }
+}
